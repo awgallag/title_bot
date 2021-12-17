@@ -1,6 +1,6 @@
 # Title Bot
 
-I implemented title bot using React, Node.js, Expres.js, CSS, and HTML
+I implemented title bot using React, Node.js, Expres.js, CSS, and HTML.
 
 ## Installation
 
