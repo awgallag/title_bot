@@ -32,6 +32,6 @@ The React App should open automatically, but if it doesn't try opening a browser
 ## Notes
 I noticed that some webpages won't run without being prefixed with 'www', however if you add this prefix to other webpages like 'accounts.google.com' then the url will no longer work. I could have added the prefix to urls after any initial failures and then sent them through another run of the algorithm, however the runtime would have been slow and users might get bored. Instead, I chose to display an error message that states 'Request failed try using the full url with prefixes'.
 
-I also chose to add persistent memory to the front-end, with the option to remove any of the title/favicon pairs.
+I also chose to add persistent memory to the front-end, with an option for users to remove any of the title/favicon pairs within their lists.
 
 I hope you enjoy the app, I did.
