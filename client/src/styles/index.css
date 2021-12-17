@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+	padding-top: 50px;
+}
+
+img {
+	height: 20px;
+	width: 20px;
+}
+
+img:hover {
+	cursor: pointer;
+	opacity: 0.7
+}
+
+label{
+	font-size: 24pt;
+}
+
+table{
+	max-width: 400px;
+	text-align: left;
+}
+
+.error__message{
+	color: white;
+	padding: 14px;
+}
+
+.input-box{
+	border: 1pt solid gray;
+	margin: 9px;
+	padding: 4px;
+}
+
+.loading{
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+}
+
+.loading:hover{
+	cursor: default;
+}
+
+.loading--hidden{
+	display: none;
+}
+
+.overlay{
+	align-items: center;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.overlay--hidden{
+	display: none;
+}
+
+.overlay__button{
+	float: right;
+}
+
+.overlay__button:hover{
+	cursor: pointer;
+}
+
+.overlay__div{
+	background-color: #333333;
+	height: 100px;
+	width: 200px; 
+}
+
+.submit-button{
+	padding: 4px;
+}
+
+.submit-button:hover{
+	cursor: pointer;
+}
